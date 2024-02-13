@@ -11,9 +11,27 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-await reply('හායි pko')
+await reply('හායි')
 } catch (e) {
 reply('*Error !!* hello')
 l(e)
 }
 })
+cmd({
+    pattern: "mk",
+    react: "😒", 
+    desc: "say hi.",
+    category: "main",
+    use: '.hi',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+await reply('mkn')
+} catch (e) {
+reply('*Error !!* hello')
+l(e)
+}
+})
+
+
