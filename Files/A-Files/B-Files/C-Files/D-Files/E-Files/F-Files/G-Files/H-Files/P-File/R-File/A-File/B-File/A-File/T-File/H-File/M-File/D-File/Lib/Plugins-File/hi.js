@@ -11,7 +11,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-await reply('hello!!')
+await reply('හායි pko')
 } catch (e) {
 reply('*Error !!* hello')
 l(e)
